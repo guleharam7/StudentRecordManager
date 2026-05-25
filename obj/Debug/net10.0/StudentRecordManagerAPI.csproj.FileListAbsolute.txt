@@ -39,5 +39,7 @@ D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\n
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\ref\StudentRecordManagerAPI.dll
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\bin\Debug\net10.0\StudentRecordManagerAPI.staticwebassets.runtime.json
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\compressed\mu0ze5rky6-{0}-fm3d6g6xpi-fm3d6g6xpi.gz
-D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\compressed\kfs50liobg-{0}-csry5mlt0k-csry5mlt0k.gz
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\compressed\chp4pjq87f-{0}-53nuein7st-53nuein7st.gz
+D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\StudentRecordManagerAPI.sourcelink.json
+D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\compressed\kfs50liobg-{0}-t13sgj0r25-t13sgj0r25.gz
+D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\compressed\73gsptafob-{0}-o9v3azbckm-o9v3azbckm.gz

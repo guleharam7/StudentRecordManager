@@ -59,7 +59,8 @@ form, .edit-card {
 /* INPUTS */
 input {
     width: 100%;
-    padding: 11px;
+    padding: 12px;
+    padding-right: 1px;
     margin: 8px 0;
     border-radius: 8px;
     border: 1px solid #374151;
@@ -126,7 +127,6 @@ tr:hover {
     background: #1f2937;
 }
 
-/* ACTION BUTTONS */
 td button {
     padding: 6px 10px;
     font-size: 13px;
