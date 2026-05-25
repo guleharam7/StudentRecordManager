@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Student</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <h3>Student Manager</h3>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="add.html">Add Student</a>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <h2>Add Student</h2>
+
+        <form id="studentForm">
+            <input type="text" id="name" placeholder="Student Name" required>
+            <input type="text" id="rollNumber" placeholder="Roll Number" required>
+            <input type="text" id="department" placeholder="Department" required>
+            <input type="number" id="marks" placeholder="Marks" required>
+
+            <button type="submit">Add Student</button>
+        </form>
+
+    </div>
+
+    <script>
+        document.getElementById("studentForm").addEventListener("submit", async function (e) {
+            e.preventDefault();
+
+            const name = document.getElementById("name").value.trim();
+            const rollNumber = document.getElementById("rollNumber").value.trim();
+            const department = document.getElementById("department").value.trim();
+            const marks = Number(document.getElementById("marks").value);
+
+            if (!name || !rollNumber || !department || !marks) {
+                alert("All fields are required!");
+                return;
+            }
+
+            if (name.length < 3) {
+                alert("Name must be at least 3 characters!");
+                return;
+            }
+
+            if (marks < 0 || marks > 100) {
+                alert("Marks must be between 0 and 100!");
+                return;
+            }
+
+            const student = {
+                name,
+                rollNumber,
+                department,
+                marks
+            };
+
+            try {
+                const response = await fetch("http://localhost:5065/api/students", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(student)
+                });
+
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    throw new Error(errorText || "Failed to add student");
+                }
+
+                const data = await response.json();
+                console.log("Saved:", data);
+
+                alert("Student added successfully!");
+
+                document.getElementById("studentForm").reset();
+
+            } catch (error) {
+                console.error("Error:", error.message);
+                alert("Error adding student: " + error.message);
+            }
+        });
+    </script>
+
+</body>
+</html>
