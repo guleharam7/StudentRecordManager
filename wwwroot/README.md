@@ -45,11 +45,19 @@ Database name: StudentDB
 
 ---
 
-## Screenshots
-- Add Student Page
-- Student List Page
-  
-- Edit Feature
+## 📸 Screenshots
+
+### Add Student Page
+<img src="./screenshots/add_page.jpg" width="700"/>
+
+### Student List Page
+<img src="./screenshots/index_page.jpg" width="700"/>
+
+### Edit Feature
+<img src="./screenshots/edit_page.jpg" width="700"/>
+
+### MongoDB Data
+<img src="./screenshots/MongoDB.jpg" width="700"/>
 
 ---
 
