@@ -50,6 +50,11 @@
                 return;
             }
 
+            if (!/^[0-9]+$/.test(rollNumber)) {
+                alert("Roll Number must contain only numbers");
+                return;
+            }
+
             if (marks < 0 || marks > 100) {
                 alert("Marks must be between 0 and 100!");
                 return;
@@ -72,20 +77,20 @@
                 });
 
                 if (!response.ok) {
-                    const errorText = await response.text();
-                    throw new Error(errorText || "Failed to add student");
+                    const msg = await response.text();
+                    alert(msg);
+                    return;
                 }
 
                 const data = await response.json();
                 console.log("Saved:", data);
 
                 alert("Student added successfully!");
-
                 document.getElementById("studentForm").reset();
 
             } catch (error) {
-                console.error("Error:", error.message);
-                alert("Error adding student: " + error.message);
+                console.error("Error:", error);
+                alert("Error adding student");
             }
         });
     </script>

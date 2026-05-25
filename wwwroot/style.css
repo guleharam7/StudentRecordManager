@@ -1,5 +1,5 @@
 ﻿body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
     background: #0b1020;
     margin: 0;
     padding: 0;
@@ -19,6 +19,7 @@
     .navbar h3 {
         margin: 0;
         color: white;
+        text-align: left;
     }
 
 .nav-links a {
@@ -26,6 +27,7 @@
     text-decoration: none;
     margin-left: 15px;
     font-weight: 500;
+    transition: opacity 0.2s;
 }
 
     .nav-links a:hover {
@@ -40,34 +42,36 @@
 }
 
 /* HEADINGS */
-h2, h3 {
+h2 {
     text-align: center;
     color: #f3f4f6;
+    margin-top: 20px;
 }
 
 /* FORM CARD (ADD + EDIT) */
 form, .edit-card {
     background: #111827;
-    padding: 22px;
+    padding: 25px;
     border-radius: 14px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.5);
     border: 1px solid #1f2937;
     max-width: 500px;
     margin: 20px auto;
+    box-sizing: border-box;
 }
 
 /* INPUTS */
 input {
     width: 100%;
     padding: 12px;
-    padding-right: 1px;
-    margin: 8px 0;
+    margin: 10px 0;
     border-radius: 8px;
     border: 1px solid #374151;
     background: #0b1220;
     color: #e5e7eb;
     outline: none;
-    transition: 0.2s;
+    transition: all 0.2s ease;
+    box-sizing: border-box; 
 }
 
     input:focus {
@@ -80,11 +84,11 @@ button {
     background: linear-gradient(90deg, #6366f1, #a855f7);
     color: white;
     border: none;
-    padding: 10px 14px;
+    padding: 12px 18px;
     border-radius: 8px;
     cursor: pointer;
-    transition: 0.3s;
-    margin-top: 6px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-top: 10px;
     font-weight: 500;
 }
 
@@ -95,15 +99,14 @@ button {
 
 /* TABLE WRAPPER */
 .table-wrapper {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
+    margin-top: 30px;
+    overflow-x: auto; 
+    width: 100%;
 }
 
 /* TABLE */
 table {
-    width: 85%;
-    max-width: 900px;
+    width: 100%;
     border-collapse: collapse;
     background: #111827;
     border-radius: 14px;
@@ -114,11 +117,12 @@ table {
 th {
     background: linear-gradient(90deg, #6366f1, #a855f7);
     color: white;
-    padding: 12px;
+    padding: 14px;
+    font-weight: 600;
 }
 
 td {
-    padding: 12px;
+    padding: 14px;
     text-align: center;
     border-bottom: 1px solid #1f2937;
 }
@@ -128,6 +132,7 @@ tr:hover {
 }
 
 td button {
-    padding: 6px 10px;
+    padding: 6px 12px;
     font-size: 13px;
+    margin: 2px;
 }

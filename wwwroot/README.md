@@ -54,10 +54,10 @@ Database name: StudentDB
 <img src="./screenshots/index_page.jpg" width="700"/>
 
 ### Edit Feature
-<img src="./screenshots/edit_page.jpg" width="700"/>
+<img src="./screenshots/Edit_page.jpg" width="700"/>
 
 ### MongoDB Data
-<img src="./screenshots/MongoDB.jpg" width="700"/>
+<img src="./screenshots/dbmongo.jpg" width="700"/>
 
 ---
 

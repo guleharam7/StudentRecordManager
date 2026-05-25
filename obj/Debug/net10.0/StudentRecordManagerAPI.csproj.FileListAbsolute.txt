@@ -1,5 +1,6 @@
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\bin\Debug\net10.0\appsettings.Development.json
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\bin\Debug\net10.0\appsettings.json
+D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\bin\Debug\net10.0\StudentRecordManagerAPI.staticwebassets.runtime.json
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\bin\Debug\net10.0\StudentRecordManagerAPI.staticwebassets.endpoints.json
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\bin\Debug\net10.0\StudentRecordManagerAPI.exe
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\bin\Debug\net10.0\StudentRecordManagerAPI.deps.json
@@ -22,10 +23,15 @@ D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\n
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\StudentRecordManagerAPI.csproj.CoreCompileInputs.cache
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\StudentRecordManagerAPI.MvcApplicationPartsAssemblyInfo.cs
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\StudentRecordManagerAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\StudentRecordManagerAPI.sourcelink.json
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\rjimswa.dswa.cache.json
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\scopedcss\bundle\StudentRecordManagerAPI.styles.css
+D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\compressed\mu0ze5rky6-{0}-brjppaen2q-brjppaen2q.gz
+D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\compressed\kfs50liobg-{0}-5wsespm6vy-5wsespm6vy.gz
+D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\compressed\73gsptafob-{0}-fzekk3bfls-fzekk3bfls.gz
+D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\compressed\chp4pjq87f-{0}-be51q1bjjo-be51q1bjjo.gz
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\staticwebassets.build.json
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\staticwebassets.build.json.cache
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\staticwebassets.development.json
@@ -37,9 +43,3 @@ D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\n
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\StudentRecordManagerAPI.pdb
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\StudentRecordManagerAPI.genruntimeconfig.cache
 D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\ref\StudentRecordManagerAPI.dll
-D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\bin\Debug\net10.0\StudentRecordManagerAPI.staticwebassets.runtime.json
-D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\StudentRecordManagerAPI.sourcelink.json
-D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\compressed\mu0ze5rky6-{0}-5gf2ajsaf4-5gf2ajsaf4.gz
-D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\compressed\kfs50liobg-{0}-b1bshu22vx-b1bshu22vx.gz
-D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\compressed\73gsptafob-{0}-oi9hyn69b8-oi9hyn69b8.gz
-D:\BSIT-2-B\WebTechA\StudentRecordManagerAPI\StudentRecordManagerAPI\obj\Debug\net10.0\compressed\chp4pjq87f-{0}-dxe7lmu6dn-dxe7lmu6dn.gz
