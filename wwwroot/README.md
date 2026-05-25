@@ -45,7 +45,7 @@ Database name: StudentDB
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Add Student Page
 <img src="./screenshots/add_page.jpg" width="700"/>
